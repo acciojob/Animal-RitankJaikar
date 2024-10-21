@@ -1,1 +1,18 @@
 /*  your css code here. If applicable */
+#photo-heading {
+	text-align: center;
+}
+
+#images {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 10px;
+	background-color: gray;
+	border-radius: 16px;
+	padding: 16px;
+}
+
+#images img {
+	width: 31.5%;
+}
